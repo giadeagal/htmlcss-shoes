@@ -31,6 +31,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 1px;
     border-radius: 50%;
+    box-shadow: 2px 2px black;
 }
 
 .main-header nav li a {
