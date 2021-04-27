@@ -5,18 +5,18 @@
     padding: 0px;
 }
 
-header:first-of-type {
+.main-header {
     position: fixed;
     height: 70px;
     width: 100%;
     /* background-color: transparent; */
 }
 
-header:first-of-type nav li {
+.main-header nav li {
     display: inline-block;
 }
 
-header nav li a {
+.main-header nav li a {
     display: inline-block;
     height: 20px;
     width: 20px;
