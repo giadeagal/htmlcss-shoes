@@ -9,11 +9,19 @@
     position: fixed;
     height: 70px;
     width: 100%;
+    text-align: center;
     /* background-color: transparent; */
+}
+
+.main-header nav {
+    position: absolute;
+    bottom: 0px;
+    right: 25px;
 }
 
 .main-header nav li {
     display: inline-block;
+    margin: 0 10px;
 }
 
 .main-header nav li a {
@@ -30,4 +38,8 @@
 /* Debug */
 header.debug {
     background-color: darkmagenta;
+}
+
+.debug nav {
+    background-color: teal;
 }
