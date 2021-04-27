@@ -96,6 +96,21 @@ main section[id^="scarpa"].box .layover {
     height: 100%;
 }
 
+nav ul li:first-of-type:hover {
+    background-color: crimson;
+    box-shadow: 2px 2px white;
+}
+
+nav ul li:nth-of-type(2):hover {
+    background-color: springgreen;
+    box-shadow: 2px 2px white;
+}
+
+nav ul li:nth-of-type(3):hover {
+    background-color: gold;
+    box-shadow: 2px 2px white;
+}
+
 /* Debug */
 /* header.debug {
     background-color: darkmagenta;
