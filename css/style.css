@@ -85,6 +85,11 @@ main .box#scarpa3 {
     background-repeat: no-repeat;
 }
 
+main section[id^="scarpa"].box h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
 /* Debug */
 /* header.debug {
     background-color: darkmagenta;
