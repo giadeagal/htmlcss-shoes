@@ -4,3 +4,30 @@
     margin: 0px;
     padding: 0px;
 }
+
+header:first-of-type {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    /* background-color: transparent; */
+}
+
+header:first-of-type nav li {
+    display: inline-block;
+}
+
+header nav li a {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+/* Debug */
+header.debug {
+    background-color: darkmagenta;
+}
