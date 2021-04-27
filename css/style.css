@@ -5,6 +5,7 @@
     padding: 0px;
 }
 
+/* Intestazione - Menù di navigazione */
 .main-header {
     position: fixed;
     height: 70px;
@@ -37,6 +38,12 @@
     color: black;
 }
 
+/* Corpo della pagina */
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
 /* Debug */
 /* header.debug {
     background-color: darkmagenta;
@@ -45,3 +52,8 @@
 /* .debug nav {
     background-color: teal;
 } */
+
+.debug .box {
+    background-color: firebrick;
+    border: 2px dashed black;
+}
