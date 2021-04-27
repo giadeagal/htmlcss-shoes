@@ -10,7 +10,7 @@
     height: 70px;
     width: 100%;
     text-align: center;
-    /* background-color: transparent; */
+    background-color: transparent;
 }
 
 .main-header nav {
@@ -38,10 +38,10 @@
 }
 
 /* Debug */
-header.debug {
+/* header.debug {
     background-color: darkmagenta;
-}
+} */
 
-.debug nav {
+/* .debug nav {
     background-color: teal;
-}
+} */
